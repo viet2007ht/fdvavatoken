@@ -316,58 +316,6 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "account",
-						"type": "address"
-					}
-				],
-				"name": "excludeFromFee",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "account",
-						"type": "address"
-					}
-				],
-				"name": "excludeFromReward",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "account",
-						"type": "address"
-					}
-				],
-				"name": "includeInFee",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "account",
-						"type": "address"
-					}
-				],
-				"name": "includeInReward",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
 						"name": "spender",
 						"type": "address"
 					},
@@ -492,71 +440,6 @@
 			{
 				"inputs": [],
 				"name": "renounceOwnership",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "developmentFee",
-						"type": "uint256"
-					}
-				],
-				"name": "setDevelopmentFeePercent",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "liquidityFee",
-						"type": "uint256"
-					}
-				],
-				"name": "setLiquidityFeePercent",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "maxTxPercent",
-						"type": "uint256"
-					}
-				],
-				"name": "setMaxTxPercent",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "bool",
-						"name": "_enabled",
-						"type": "bool"
-					}
-				],
-				"name": "setSwapAndLiquifyEnabled",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "taxFee",
-						"type": "uint256"
-					}
-				],
-				"name": "setTaxFeePercent",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -699,6 +582,47 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfering",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfering",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "uniswapV2Pair",
 				"outputs": [
@@ -742,7 +666,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/vanvat.sol": "VanVat"
+			"contracts/fdvava.sol": "VanVat"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -756,12 +680,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/vanvat.sol": {
-			"keccak256": "0x946a9d6e34556ef0c9cc6af2b7aa4949942551e42de11c0a17b92e29c3f80f26",
+		"contracts/fdvava.sol": {
+			"keccak256": "0x000e37e482aeaa3e52285ffca1fd9486127b9253200fa152ba8aea88dc5ebff9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d0c24bc0c73a98b9e0ba903309f716d25f2d9ec706e9bd3f7b46ed2d745b2fa6",
-				"dweb:/ipfs/QmRY2qUJXmABvyHCDRRe5BwkoYdV3naze5YkDwWnnkSgvf"
+				"bzz-raw://2c16996b18630d3df98d32562d832268b852063e8058c1891726bae087eb5f68",
+				"dweb:/ipfs/QmNfshJbiXaKaQuBp5fbn6vwS14izoFPGcyefQKDDMKCWc"
 			]
 		}
 	},
